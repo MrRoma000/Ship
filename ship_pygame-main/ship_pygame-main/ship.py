@@ -5,7 +5,7 @@ class Ship:
     def __init__(self, SW):
         self.screen = SW.screen
         self.screen_rect = SW.screen.get_rect()
-        self.image = pygame.image.load("images/shipresized.png")
+        self.image = pygame.image.load("images/ship_resized.png")
         self.rect = self.image.get_rect()
         self.rect.midbottom = self.screen_rect.midbottom
         self.moving_right = False
